@@ -23,8 +23,9 @@
 | BAAI/bge-multilingual-gemma2-fp16                                |         80.12 |         65.89 |                26.97 |     57.66 |      7 |
 | infloat/me5-instruct                                             |         82.24 |         63.17 |                26.62 |     57.34 |      8 |
 
-
-============================================================
+#
+#
+#
 
 # STS
 |                                                                  |   KLUE-STS |   Kor-STS |   STS17 |   STS_Average |   Rank |
