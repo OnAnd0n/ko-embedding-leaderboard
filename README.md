@@ -2,9 +2,10 @@
 # 한국어 오픈소스 임베딩 모델 리더보드
 ## ko-embedding-leaderboard
 
-- IR 추가 진행중 (IR 추가후 평가 코드 업로드 예정)
-- Cluster 평가 Dataset 추가 예정 
+- IR 추가 진행중 (IR 추가 후, 평가 코드도 업로드 예정)
+- Clustering 평가 Dataset 추가 예정 
 - HuggingFace에 기재된 대로 진행하되, Transformers > SentenceTransformer 의 우선순위로 모델 load.
+  (단, Flagembedding으로만 기재된 경우, Transformers로 Load  //  Flagembedding로 Load 필요시, 추후 진행)
 - pair sentence로 존재하는 Dataset 중, 중복 pair는 제거 ( (A, B) = (B, A) )
 - LLM Based 임베딩 모델은 fp16/bf16으로 평가
 - 문의 사항이나, 평가가 필요한 모델은 issue에 남겨주세요.
