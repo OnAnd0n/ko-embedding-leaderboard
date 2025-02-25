@@ -14,11 +14,12 @@
 
 평가 방식 살펴보기 : [MTEB 코드 살펴보기 (2)](https://introduce-ai.tistory.com/entry/%EC%9E%84%EB%B2%A0%EB%94%A9-%EB%AA%A8%EB%8D%B8-%ED%8F%89%EA%B0%80-MTEB-%EC%BD%94%EB%93%9C-%EC%82%B4%ED%8E%B4%EB%B3%B4%EA%B8%B0-2-Custom-Model-%ED%8F%89%EA%B0%80) 
 
-평가 Metric
--STS : mean of {pearson, spearman, cosine_pearson, cosine_spearman, ..., euclidean_spearman}
--NLI : average precision
--Clustering : v-measure
--Retrieval : mean of NDCG @ 5, 10
+
+### 평가 Metric
+- STS : mean of {pearson, spearman, cosine_pearson, cosine_spearman, ..., euclidean_spearman}
+- NLI : average precision
+- Clustering : v-measure
+- Retrieval : mean of NDCG @ 5, 10
 
 
 # 종합 순위
