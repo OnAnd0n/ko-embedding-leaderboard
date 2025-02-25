@@ -6,13 +6,20 @@
 - 평가 코드 업로드 예정
 - IR / Clustering 평가 Dataset 추가 예정
 - HuggingFace에 기재된 대로 진행하되, SentenceTransformer > Transformers 의 우선순위로 모델 load.
-  (단, Flagembedding으로만 기재된 경우, SentenceTransformer로 Load  //  Flagembedding로 Load 필요시, 추후 진행)
+  (단, Flagembedding으로만 기재된 경우, SentenceTransformer와 Transformers 중 높은 성능의 것으로 기입  //  Flagembedding로 Load 필요시, 추후 진행)
 - pair sentence로 존재하는 Dataset 중, 중복 pair는 제거 ( (A, B) = (B, A) )
 - LLM Based 임베딩 모델은 fp16/bf16으로 평가
 - 문의 사항이나, 평가가 필요한 모델은 issue에 남겨주세요.
 - 잘못된 부분에 대한 조언/멘트는 감사히 받겠습니다.
 
 평가 방식 살펴보기 : [MTEB 코드 살펴보기 (2)](https://introduce-ai.tistory.com/entry/%EC%9E%84%EB%B2%A0%EB%94%A9-%EB%AA%A8%EB%8D%B8-%ED%8F%89%EA%B0%80-MTEB-%EC%BD%94%EB%93%9C-%EC%82%B4%ED%8E%B4%EB%B3%B4%EA%B8%B0-2-Custom-Model-%ED%8F%89%EA%B0%80) 
+
+평가 Metric
+-STS : mean of {pearson, spearman, cosine_pearson, cosine_spearman, ..., euclidean_spearman}
+-NLI : average precision
+-Clustering : v-measure
+-Retrieval : mean of NDCG @ 5, 10
+
 
 # 종합 순위
 |                                                                  |   STS_Average |   NLI_Average |   Clustering_Average |   Retrieval_Average |   Average |   Rank |
