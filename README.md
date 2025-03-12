@@ -25,15 +25,15 @@
 # 종합 순위
 |                                                                  |   STS_Average |   NLI_Average |   Clustering_Average |   Retrieval_Average |   Weighted_Average |   Rank |
 |:-----------------------------------------------------------------|--------------:|--------------:|---------------------:|--------------------:|-------------------:|-------:|
-| nlpai-lab/KURE-v1                                                |         83.37 |         64.79 |                39.21 |               75.67 |              69.06 |      1 |
-| dragonkue/snowflake-arctic-embed-l-v2.0-ko                       |         78.49 |         59.46 |                40.68 |               78.13 |              68.84 |      2 |
+| dragonkue/snowflake-arctic-embed-l-v2.0-ko                       |         78.49 |         59.46 |                42.2  |               78.13 |              69.09 |      1 |
+| nlpai-lab/KURE-v1                                                |         83.37 |         64.79 |                39.21 |               75.67 |              69.06 |      2 |
 | kakaocorp/kanana-nano-2.1b-embedding-fp16                        |         83.09 |         66.86 |                32.71 |               75.32 |              68.1  |      3 |
 | Alibaba-NLP/gte-Qwen2-7B-instruct-fp16                           |         78.04 |         63.55 |                40.05 |               74.15 |              67.35 |      4 |
 | nlpai-lab/KoE5                                                   |         81.36 |         60.27 |                36.22 |               75.18 |              67.23 |      5 |
 | BAAI/bge-m3                                                      |         83.46 |         65.32 |                33.01 |               73.55 |              67.07 |      6 |
-| Snowflake/snowflake-arctic-embed-l-v2.0                          |         76.89 |         58.14 |                40.68 |               75.56 |              67.06 |      7 |
-| dragonkue/BGE-m3-ko                                              |         84.1  |         62.01 |                29.49 |               75.44 |              66.99 |      8 |
-| McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-supervised-bf16 |         79.97 |         67.21 |                45.56 |               69.63 |              66.94 |      9 |
+| dragonkue/BGE-m3-ko                                              |         84.1  |         62.01 |                29.49 |               75.44 |              66.99 |      7 |
+| McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-supervised-bf16 |         79.97 |         67.21 |                45.56 |               69.63 |              66.94 |      8 |
+| Snowflake/snowflake-arctic-embed-l-v2.0                          |         76.89 |         58.14 |                35.36 |               75.56 |              66.18 |      9 |
 | intfloat/multilingual-e5-large-instruct                          |         82.24 |         63.17 |                26.62 |               71.74 |              64.54 |     10 |
 | BAAI/bge-multilingual-gemma2-fp16                                |         80.12 |         65.89 |                26.97 |               70.46 |              64.06 |     11 |
 | upskyy/bge-m3-korean                                             |         84.67 |         70.82 |                22.08 |               67.91 |              63.55 |     12 |
@@ -110,7 +110,7 @@
 | BAAI/bge-multilingual-gemma2-fp16                                |           78.2  |              75.64 |            65.6  |           37.08 |               95.79 |               70.46 |     10 |
 | McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-supervised-bf16 |           70.17 |              75.34 |            79.11 |           36.72 |               86.8  |               69.63 |     11 |
 | upskyy/bge-m3-korean                                             |           74.2  |              71.66 |            76.53 |           30.27 |               86.91 |               67.91 |     12 |
-| facebook/drama-1b-fp16                                           |                 |                    |                  |                 |                     |              nan    |     13 
+| facebook/drama-1b-fp16                                           |                 |                    |                  |                 |                     |              nan    |     13 |
 
 
 
