@@ -20,24 +20,24 @@
 - NLI : average precision
 - Clustering : v-measure
 - Retrieval : mean of NDCG @ 5, 10
-- Weighted_Average => Retrieval : 50%,  [Clustering, NLI, STS] : 50%
+- Weighted_Average => Retrieval : 33.3%,  Clustering : 33.3%, [NLI, STS] : 33.3%
 
 # 종합 순위
 |                                                                  |   STS_Average |   NLI_Average |   Clustering_Average |   Retrieval_Average |   Weighted_Average |   Rank |
 |:-----------------------------------------------------------------|--------------:|--------------:|---------------------:|--------------------:|-------------------:|-------:|
-| dragonkue/snowflake-arctic-embed-l-v2.0-ko                       |         78.49 |         59.46 |                42.2  |               78.13 |              69.09 |      1 |
-| nlpai-lab/KURE-v1                                                |         83.37 |         64.79 |                39.21 |               75.67 |              69.06 |      2 |
-| kakaocorp/kanana-nano-2.1b-embedding-fp16                        |         83.09 |         66.86 |                32.71 |               75.32 |              68.1  |      3 |
-| Alibaba-NLP/gte-Qwen2-7B-instruct-fp16                           |         78.04 |         63.55 |                40.05 |               74.15 |              67.35 |      4 |
-| nlpai-lab/KoE5                                                   |         81.36 |         60.27 |                36.22 |               75.18 |              67.23 |      5 |
-| BAAI/bge-m3                                                      |         83.46 |         65.32 |                33.01 |               73.55 |              67.07 |      6 |
-| dragonkue/BGE-m3-ko                                              |         84.1  |         62.01 |                29.49 |               75.44 |              66.99 |      7 |
-| McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-supervised-bf16 |         79.97 |         67.21 |                45.56 |               69.63 |              66.94 |      8 |
-| Snowflake/snowflake-arctic-embed-l-v2.0                          |         76.89 |         58.14 |                35.36 |               75.56 |              66.18 |      9 |
-| intfloat/multilingual-e5-large-instruct                          |         82.24 |         63.17 |                26.62 |               71.74 |              64.54 |     10 |
-| BAAI/bge-multilingual-gemma2-fp16                                |         80.12 |         65.89 |                26.97 |               70.46 |              64.06 |     11 |
-| upskyy/bge-m3-korean                                             |         84.67 |         70.82 |                22.08 |               67.91 |              63.55 |     12 |
-| facebook/drama-1b-fp16                                           |         77.24 |         60.32 |                36.09 |              nan    |             nan    |     13 |
+| nlpai-lab/KURE-v1                                                |         83.37 |         64.79 |                61.6  |               75.67 |              62.22 |      1 |
+| dragonkue/snowflake-arctic-embed-l-v2.0-ko                       |         78.49 |         59.46 |                61.54 |               78.13 |              61.88 |      2 |
+| McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-supervised-bf16 |         79.97 |         67.21 |                65.2  |               69.63 |              61.3  |      3 |
+| Alibaba-NLP/gte-Qwen2-7B-instruct-fp16                           |         78.04 |         63.55 |                62.22 |               74.15 |              61.19 |      4 |
+| nlpai-lab/KoE5                                                   |         81.36 |         60.27 |                60.39 |               75.18 |              60.93 |      5 |
+| BAAI/bge-m3                                                      |         83.46 |         65.32 |                58.27 |               73.55 |              60.47 |      6 |
+| dragonkue/BGE-m3-ko                                              |         84.1  |         62.01 |                55.47 |               75.44 |              59.87 |      7 |
+| kakaocorp/kanana-nano-2.1b-embedding-fp16                        |         83.09 |         66.86 |                54.03 |               75.32 |              59.78 |      8 |
+| intfloat/multilingual-e5-large-instruct                          |         82.24 |         63.17 |                58.34 |               71.74 |              59.52 |      9 |
+| BAAI/bge-multilingual-gemma2-fp16                                |         80.12 |         65.89 |                56.54 |               70.46 |              58.56 |     10 |
+| Snowflake/snowflake-arctic-embed-l-v2.0                          |         76.89 |         58.14 |                51.11 |               75.56 |              57.23 |     11 |
+| upskyy/bge-m3-korean                                             |         84.67 |         70.82 |                42.74 |               67.91 |              54.16 |     12 |
+| facebook/drama-1b-fp16                                           |         77.24 |         60.32 |                36.09 |               70.92 |              50.95 |     13 |
 
 #
 #
@@ -79,21 +79,21 @@
 | Snowflake/snowflake-arctic-embed-l-v2.0                          |      58.34 |     63.63 |                      52.45 |         58.14 |     13 |
 
 # Clustering
-|                                                                  |   sib2000 |   Clustering_Average |   Rank |
-|:-----------------------------------------------------------------|----------:|---------------------:|-------:|
-| McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-supervised-bf16 |     45.56 |                45.56 |      1 |
-| dragonkue/snowflake-arctic-embed-l-v2.0-ko                       |     42.2  |                42.2  |      2 |
-| Alibaba-NLP/gte-Qwen2-7B-instruct-fp16                           |     40.05 |                40.05 |      3 |
-| nlpai-lab/KURE-v1                                                |     39.21 |                39.21 |      4 |
-| nlpai-lab/KoE5                                                   |     36.22 |                36.22 |      5 |
-| facebook/drama-1b-fp16                                           |     36.09 |                36.09 |      6 |
-| Snowflake/snowflake-arctic-embed-l-v2.0                          |     35.36 |                35.36 |      7 |
-| BAAI/bge-m3                                                      |     33.01 |                33.01 |      8 |
-| kakaocorp/kanana-nano-2.1b-embedding-fp16                        |     32.71 |                32.71 |      9 |
-| dragonkue/BGE-m3-ko                                              |     29.49 |                29.49 |     10 |
-| BAAI/bge-multilingual-gemma2-fp16                                |     26.97 |                26.97 |     11 |
-| intfloat/multilingual-e5-large-instruct                          |     26.62 |                26.62 |     12 |
-| upskyy/bge-m3-korean                                             |     22.08 |                22.08 |     13 |
+|                                                                  |   sib2000 |   clustering_klue_mrc_context_domain |   clustering_klue_mrc_ynat_title |   Clustering_Average |   Rank |
+|:-----------------------------------------------------------------|----------:|-------------------------------------:|---------------------------------:|---------------------:|-------:|
+| McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-supervised-bf16 |     45.56 |                                81.8  |                            68.24 |                65.2  |      1 |
+| Alibaba-NLP/gte-Qwen2-7B-instruct-fp16                           |     40.05 |                                80.79 |                            65.81 |                62.22 |      2 |
+| nlpai-lab/KURE-v1                                                |     39.21 |                                75.08 |                            70.52 |                61.6  |      3 |
+| dragonkue/snowflake-arctic-embed-l-v2.0-ko                       |     42.2  |                                75.03 |                            67.4  |                61.54 |      4 |
+| nlpai-lab/KoE5                                                   |     36.22 |                                73.29 |                            71.67 |                60.39 |      5 |
+| intfloat/multilingual-e5-large-instruct                          |     26.62 |                                79.47 |                            68.92 |                58.34 |      6 |
+| BAAI/bge-m3                                                      |     33.01 |                                71.85 |                            69.96 |                58.27 |      7 |
+| BAAI/bge-multilingual-gemma2-fp16                                |     26.97 |                                74.42 |                            68.24 |                56.54 |      8 |
+| dragonkue/BGE-m3-ko                                              |     29.49 |                                70.81 |                            66.1  |                55.47 |      9 |
+| kakaocorp/kanana-nano-2.1b-embedding-fp16                        |     32.71 |                                74.3  |                            55.08 |                54.03 |     10 |
+| Snowflake/snowflake-arctic-embed-l-v2.0                          |     35.36 |                                69.38 |                            48.59 |                51.11 |     11 |
+| upskyy/bge-m3-korean                                             |     22.08 |                                73.49 |                            32.66 |                42.74 |     12 |
+| facebook/drama-1b-fp16                                           |     36.09 |                               nan    |                           nan    |                36.09 |     13 |
 
 # Retrieval
 |                                                                  |   Ko-StrategyQA |   AutoRAGRetrieval |   PublicHealthQA |   XPQARetrieval |   facebook/belebele |   Retrieval_Average |   Rank |
@@ -107,10 +107,10 @@
 | Alibaba-NLP/gte-Qwen2-7B-instruct-fp16                           |           80.29 |              75.12 |            80.93 |           39.86 |               94.56 |               74.15 |      7 |
 | BAAI/bge-m3                                                      |           78.58 |              82.32 |            79.36 |           34.64 |               92.87 |               73.55 |      8 |
 | intfloat/multilingual-e5-large-instruct                          |           79.59 |              74.56 |            81.35 |           31.46 |               91.76 |               71.74 |      9 |
-| BAAI/bge-multilingual-gemma2-fp16                                |           78.2  |              75.64 |            65.6  |           37.08 |               95.79 |               70.46 |     10 |
-| McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-supervised-bf16 |           70.17 |              75.34 |            79.11 |           36.72 |               86.8  |               69.63 |     11 |
-| upskyy/bge-m3-korean                                             |           74.2  |              71.66 |            76.53 |           30.27 |               86.91 |               67.91 |     12 |
-| facebook/drama-1b-fp16                                           |                 |                    |                  |                 |                     |              nan    |     13 |
+| facebook/drama-1b-fp16                                           |          nan    |             nan    |            80.06 |           36.97 |               95.73 |               70.92 |     10 |
+| BAAI/bge-multilingual-gemma2-fp16                                |           78.2  |              75.64 |            65.6  |           37.08 |               95.79 |               70.46 |     11 |
+| McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-supervised-bf16 |           70.17 |              75.34 |            79.11 |           36.72 |               86.8  |               69.63 |     12 |
+| upskyy/bge-m3-korean                                             |           74.2  |              71.66 |            76.53 |           30.27 |               86.91 |               67.91 |     13
 
 
 
