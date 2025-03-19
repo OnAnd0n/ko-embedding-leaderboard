@@ -110,7 +110,11 @@
 | facebook/drama-1b-fp16                                           |          nan    |             nan    |            80.06 |           36.97 |               95.73 |               70.92 |     10 |
 | BAAI/bge-multilingual-gemma2-fp16                                |           78.2  |              75.64 |            65.6  |           37.08 |               95.79 |               70.46 |     11 |
 | McGill-NLP/LLM2Vec-Meta-Llama-3-8B-Instruct-mntp-supervised-bf16 |           70.17 |              75.34 |            79.11 |           36.72 |               86.8  |               69.63 |     12 |
-| upskyy/bge-m3-korean                                             |           74.2  |              71.66 |            76.53 |           30.27 |               86.91 |               67.91 |     13
+| upskyy/bge-m3-korean                                             |           74.2  |              71.66 |            76.53 |           30.27 |               86.91 |               67.91 |     13 |
+
+
+
+https://onand0n.github.io/ko-embedding-leaderboard/
 
 
 
