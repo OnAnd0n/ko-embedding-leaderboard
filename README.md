@@ -9,6 +9,7 @@
   (단, Flagembedding으로만 기재된 경우, SentenceTransformer와 Transformers 중 높은 성능의 것으로 기입  //  Flagembedding로 Load 필요시, 추후 진행)
 - pair sentence로 존재하는 Dataset 중, 중복 pair는 제거 ( (A, B) = (B, A) )
 - LLM Based 임베딩 모델은 fp16/bf16으로 평가
+- HuggingFace에 Query_fix가 기재된 경우, 추가 (IR에 대해서만 Query_fix가 명시되어 있을 경우에는 MTEB Instruction 기준으로 적용해보고, 만일 더 성능이 높다면 그대로 인정)
 - 문의 사항이나, 평가가 필요한 모델은 issue에 남겨주세요.
 - 잘못된 부분에 대한 조언/멘트는 감사히 받겠습니다.
 
