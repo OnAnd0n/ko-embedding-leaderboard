@@ -37,7 +37,7 @@
 | BAAI/bge-m3                                                      |         83.46 |         65.32 |                58.27 |               73.55 |              60.47 |      9 |
 | Snowflake/snowflake-arctic-embed-l-v2.0                          |         76.89 |         58.95 |                58.94 |               75.56 |              59.93 |     10 |
 | dragonkue/BGE-m3-ko                                              |         84.1  |         62.01 |                55.47 |               75.44 |              59.87 |     11 |
-| FronyAI/frony-embed-medium-ko-v1                                 |         79.44 |         60.53 |                58.26 |               72.57 |              59.16 |     12 |
+| FronyAI/frony-embed-medium-ko-v1                                 |         79.44 |         60.53 |                58.26 |               72.46 |              59.13 |     12 |
 | facebook/drama-1b-fp16                                           |         80.76 |         61.09 |                51.1  |               70.92 |              56.43 |     13 |
 | upskyy/bge-m3-korean                                             |         84.67 |         70.82 |                42.74 |               67.91 |              54.16 |     14 |
 
@@ -111,7 +111,7 @@
 | nlpai-lab/KoE5                                                   |           78.85 |              84.46 |            83.68 |           34.73 |               94.2  |               75.18 |      6 |
 | Alibaba-NLP/gte-Qwen2-7B-instruct-fp16                           |           80.29 |              75.12 |            80.93 |           39.86 |               94.56 |               74.15 |      7 |
 | BAAI/bge-m3                                                      |           78.58 |              82.32 |            79.36 |           34.64 |               92.87 |               73.55 |      8 |
-| FronyAI/frony-embed-medium-ko-v1                                 |           76.36 |              78.41 |            81.57 |           34.04 |               92.49 |               72.57 |      9 |
+| FronyAI/frony-embed-medium-ko-v1                                 |           76.33 |              79.88 |            79.81 |           34.04 |               92.22 |               72.46 |      9 |
 | intfloat/multilingual-e5-large-instruct                          |           79.59 |              74.56 |            81.35 |           31.46 |               91.76 |               71.74 |     10 |
 | facebook/drama-1b-fp16                                           |          nan    |             nan    |            80.06 |           36.97 |               95.73 |               70.92 |     11 |
 | BAAI/bge-multilingual-gemma2-fp16                                |           78.2  |              75.64 |            65.6  |           37.08 |               95.79 |               70.46 |     12 |
