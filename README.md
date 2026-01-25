@@ -23,7 +23,16 @@
 - Retrieval : mean of NDCG @ 5, 10
 - Weighted_Average => Retrieval : 33.3%,  Clustering : 33.3%, [NLI, STS] : 33.3%
 
-# 종합 순위
+
+# Sparse 임베딩 모델 IR 순위
+|                                       |   Ko-StrategyQA |   AutoRAGRetrieval |   PublicHealthQA |   facebook/belebele |   webfaq-retrieval |   miracl/miracl |   Sparse_Retrieval_Average |   Rank |
+|:--------------------------------------|----------------:|-------------------:|-----------------:|--------------------:|-------------------:|----------------:|---------------------------:|-------:|
+| yjoonjang/splade-ko-v1                |           72.9  |              94.23 |            78.68 |               95.65 |              78.93 |           51.29 |                      78.61 |      1 |
+| telepix/PIXIE-Splade-Preview          |           71.59 |              95.97 |            79.1  |               95.44 |              78.1  |           49.22 |                      78.24 |      2 |
+| yjoonjang/inference-free-splade-ko-v1 |           70.53 |              93.83 |            72.46 |               93.55 |              78.63 |           50.42 |                      76.57 |      3 |
+
+
+# Dense 임베딩 모델 종합 순위
 |                                                                  |   STS_Average |   NLI_Average |   Clustering_Average |   Retrieval_Average |   Weighted_Average |   Rank |
 |:-----------------------------------------------------------------|--------------:|--------------:|---------------------:|--------------------:|-------------------:|-------:|
 | Qwen/Qwen3-Embedding-8B-bf16                                     |         89.36 |         77.71 |                65.79 |               78.73 |              66.74 |      1 |
