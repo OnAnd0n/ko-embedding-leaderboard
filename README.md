@@ -7,10 +7,9 @@
 - HuggingFace에 Query_fix가 기재된 경우, 적용
 - 문의 사항이나, 평가가 필요한 모델은 issue에 남겨주세요.
 - 잘못된 부분에 대한 조언/멘트는 감사히 받겠습니다.
+- 평가 방식 살펴보기 : [MTEB 코드 살펴보기 (2)](https://introduce-ai.tistory.com/entry/%EC%9E%84%EB%B2%A0%EB%94%A9-%EB%AA%A8%EB%8D%B8-%ED%8F%89%EA%B0%80-MTEB-%EC%BD%94%EB%93%9C-%EC%82%B4%ED%8E%B4%EB%B3%B4%EA%B8%B0-2-Custom-Model-%ED%8F%89%EA%B0%80) 
 
-평가 방식 살펴보기 : [MTEB 코드 살펴보기 (2)](https://introduce-ai.tistory.com/entry/%EC%9E%84%EB%B2%A0%EB%94%A9-%EB%AA%A8%EB%8D%B8-%ED%8F%89%EA%B0%80-MTEB-%EC%BD%94%EB%93%9C-%EC%82%B4%ED%8E%B4%EB%B3%B4%EA%B8%B0-2-Custom-Model-%ED%8F%89%EA%B0%80) 
-
-Version 2부터는 Clusetering, NLI 등은 평가 하지 않고 IR만 평가합니다. [Version 1 확인하기](https://github.com/OnAnd0n/ko-embedding-leaderboard/blob/main/v1/v1.md) 
+※ Version 2부터는 Clusetering, NLI 등은 평가 하지 않고 IR만 평가합니다. [Version 1 확인하기](https://github.com/OnAnd0n/ko-embedding-leaderboard/blob/main/v1/v1.md) 
 
 
 ### 평가 Metric
