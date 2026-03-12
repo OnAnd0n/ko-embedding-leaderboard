@@ -10,7 +10,7 @@
 
 평가 방식 살펴보기 : [MTEB 코드 살펴보기 (2)](https://introduce-ai.tistory.com/entry/%EC%9E%84%EB%B2%A0%EB%94%A9-%EB%AA%A8%EB%8D%B8-%ED%8F%89%EA%B0%80-MTEB-%EC%BD%94%EB%93%9C-%EC%82%B4%ED%8E%B4%EB%B3%B4%EA%B8%B0-2-Custom-Model-%ED%8F%89%EA%B0%80) 
 
-Version 2부터는 Clusetering, NLI 등은 평가 하지 않고 IR만 평가합니다. [Version 1 확인하기]() 
+Version 2부터는 Clusetering, NLI 등은 평가 하지 않고 IR만 평가합니다. [Version 1 확인하기](https://github.com/OnAnd0n/ko-embedding-leaderboard/blob/main/v1/v1.md) 
 
 
 ### 평가 Metric
