@@ -26,7 +26,7 @@
 
 
 # Dense 임베딩 모델 IR 순위
-|                                            |                                            |   Ko-StrategyQA |   AutoRAGRetrieval |   PublicHealthQA |   LawIRKo |   WebFAQRetrieval |   SQuADKorV1Retrieval |   MIRACLRetrievalHardNegative |   Retrieval_Average |   Rank |
+|                                            |   Ko-StrategyQA |   AutoRAGRetrieval |   PublicHealthQA |   LawIRKo |   WebFAQRetrieval |   SQuADKorV1Retrieval |   MIRACLRetrievalHardNegative |   Retrieval_Average |   Rank |
 |:-------------------------------------------|----------------:|-------------------:|-----------------:|----------:|------------------:|----------------------:|------------------------------:|--------------------:|-------:|
 | perplexity-ai/pplx-embed-v1-4b             |           82.25 |              82.27 |            89.54 |     76.44 |             89.51 |                 93.91 |                         65.6  |               82.79 |      1 |
 | dragonkue/snowflake-arctic-embed-l-v2.0-ko |           79.69 |              90.64 |            82.56 |     76.38 |             85.98 |                 94.34 |                         65.38 |               82.14 |      2 |
