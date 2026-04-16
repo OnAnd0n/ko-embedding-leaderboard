@@ -18,7 +18,7 @@
 
 
 # Sparse 임베딩 모델 IR 순위
-|                                       |   Ko-StrategyQA |   AutoRAGRetrieval |   PublicHealthQA |   facebook/belebele |   webfaq-retrieval |   miracl/miracl |   Sparse_Retrieval_Average |   Rank |
+|                                       |   Ko-StrategyQA |   AutoRAGRetrieval |   PublicHealthQA |   facebook/belebele |   WebFAQRetrieval |   miracl/miracl |   Sparse_Retrieval_Average |   Rank |
 |:--------------------------------------|----------------:|-------------------:|-----------------:|--------------------:|-------------------:|----------------:|---------------------------:|-------:|
 | yjoonjang/splade-ko-v1                |           72.9  |              94.23 |            78.68 |               95.65 |              78.93 |           51.29 |                      78.61 |      1 |
 | telepix/PIXIE-Splade-Preview          |           71.59 |              95.97 |            79.1  |               95.44 |              78.1  |           49.22 |                      78.24 |      2 |
@@ -26,13 +26,17 @@
 
 
 # Dense 임베딩 모델 IR 순위
-|                                            |   Ko-StrategyQA |   AutoRAGRetrieval |   PublicHealthQA |   law_ir-ko |   webfaq-retrieval |   squad-kor-v1 |   Retrieval_Average |   Rank |
-|:-------------------------------------------|----------------:|-------------------:|-----------------:|------------:|-------------------:|---------------:|--------------------:|-------:|
-| dragonkue/snowflake-arctic-embed-l-v2.0-ko |           80.01 |              90.33 |            82.56 |       76.38 |              85.97 |          93.35 |               84.77 |      1 |
-| telepix/PIXIE-Rune-v1.0                    |           79.54 |              89.39 |            83.18 |       76.01 |              85.49 |          94.44 |               84.68 |      2 |
-| Qwen/Qwen3-Embedding-4B-bf16               |           82.07 |              82.8  |            85.57 |       76.48 |              83.98 |          90.06 |               83.49 |      3 |
-| nlpai-lab/KURE-v1                          |           79.2  |              86.66 |            81.1  |       73.21 |              85.06 |          93.35 |               83.1  |      4 |
-| Snowflake/snowflake-arctic-embed-l-v2.0    |           79.57 |              83.61 |            80.78 |       74.88 |              85.44 |          90.96 |               82.54 |      5 |
-| BAAI/bge-m3                                |           78.58 |              82.32 |            79.36 |       70.72 |              84.15 |          90.07 |               80.87 |      6 |
-| intfloat/multilingual-e5-large-instruct    |           79.59 |              74.56 |            81.35 |       73.34 |              81.69 |          89.34 |               79.98 |      7 |
-| Qwen/Qwen3-Embedding-0.6B-bf16             |           75.76 |              82.06 |            78.14 |       71.1  |              80.35 |          84.53 |               78.66 |      8 |
+|                                            |                                            |   Ko-StrategyQA |   AutoRAGRetrieval |   PublicHealthQA |   LawIRKo |   WebFAQRetrieval |   SQuADKorV1Retrieval |   MIRACLRetrievalHardNegative |   Retrieval_Average |   Rank |
+|:-------------------------------------------|----------------:|-------------------:|-----------------:|----------:|------------------:|----------------------:|------------------------------:|--------------------:|-------:|
+| perplexity-ai/pplx-embed-v1-4b             |           82.25 |              82.27 |            89.54 |     76.44 |             89.51 |                 93.91 |                         65.6  |               82.79 |      1 |
+| dragonkue/snowflake-arctic-embed-l-v2.0-ko |           79.69 |              90.64 |            82.56 |     76.38 |             85.98 |                 94.34 |                         65.38 |               82.14 |      2 |
+| telepix/PIXIE-Rune-v1.0                    |           79.54 |              89.39 |            83.18 |     76.02 |             85.5  |                 94.43 |                         62.93 |               81.57 |      3 |
+| Qwen/Qwen3-Embedding-4B                    |           81.89 |              83.04 |            86.54 |     76.79 |             84.16 |                 90.12 |                         67.06 |               81.37 |      4 |
+| nlpai-lab/KURE-v1                          |           79.2  |              86.66 |            81.1  |     73.22 |             85.05 |                 93.35 |                         66.75 |               80.76 |      5 |
+| jinaai/jina-embeddings-v5-text-small       |           80.06 |              82.52 |            86.24 |     74.01 |             84.2  |                 88.91 |                         66.12 |               80.29 |      6 |
+| Snowflake/snowflake-arctic-embed-l-v2.0    |           79.57 |              83.60 |            80.78 |     74.89 |             85.45 |                 90.95 |                         64.75 |               80    |      7 |
+| BAAI/bge-m3                                |           78.58 |              82.32 |            80.69 |     70.72 |             84.14 |                 90.07 |                         68.59 |               79.3  |      8 |
+| google/embeddinggemma-300m                 |           79.25 |              81.02 |            81.54 |     67.5  |             84.4  |                 90.8  |                         62.81 |               78.19 |      9 |
+| microsoft/harrier-oss-v1-0.6b              |           77.01 |              82.21 |            82.17 |     69.09 |             76.93 |                 91.95 |                         63.04 |               77.49 |     10 |
+| intfloat/multilingual-e5-large-instruct    |           78.93 |              74.72 |            80.69 |     73.38 |             81.32 |                 89.08 |                         62.74 |               77.27 |     11 |
+| Qwen/Qwen3-Embedding-0.6B                  |           75.55 |              81.51 |            78.51 |     71.48 |             80.54 |                 84.53 |                         59.03 |               75.88 |     12 |
