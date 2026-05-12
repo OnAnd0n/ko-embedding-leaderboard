@@ -18,13 +18,16 @@
 
 
 # Sparse 임베딩 모델 IR 순위
-|                                       |   Ko-StrategyQA |   AutoRAGRetrieval |   PublicHealthQA |   facebook/belebele |   WebFAQRetrieval |   miracl/miracl |   Sparse_Retrieval_Average |   Rank |
-|:--------------------------------------|----------------:|-------------------:|-----------------:|--------------------:|-------------------:|----------------:|---------------------------:|-------:|
-| yjoonjang/splade-ko-v1                |           72.9  |              94.23 |            78.68 |               95.65 |              78.93 |           51.29 |                      78.61 |      1 |
-| telepix/PIXIE-Splade-Preview          |           71.59 |              95.97 |            79.1  |               95.44 |              78.1  |           49.22 |                      78.24 |      2 |
-| yjoonjang/inference-free-splade-ko-v1 |           70.53 |              93.83 |            72.46 |               93.55 |              78.63 |           50.42 |                      76.57 |      3 |
-
-
+|                                       |   Ko-StrategyQA |   AutoRAGRetrieval |   PublicHealthQA |   LawIRKo |   WebFAQRetrieval |   SQuADKorV1Retrieval |   MIRACLRetrievalHardNegative |   Sparse_Retrieval_Average |   Rank |
+|:--------------------------------------|----------------:|-------------------:|-----------------:|----------:|------------------:|----------------------:|------------------------------:|---------------------------:|-------:|
+| telepix/PIXIE-Splade-v1.5             |           76.19 |              93.87 |            78.01 |     75.72 |             78.3  |                 96.57 |                         48.66 |                      78.19 |      1 |
+| yjoonjang/splade-ko-v1                |           72.88 |              94.24 |            78.69 |     63.62 |             78.91 |                 96.07 |                         54.57 |                      77    |      2 |
+| yjoonjang/inference-free-splade-ko-v1 |           70.53 |              93.34 |            49.38 |     95.44 |             78.68 |                 96.11 |                         53.74 |                      76.75 |      3 |
+| telepix/PIXIE-Splade-Preview          |           71.59 |              95.95 |            79.14 |     48.89 |             78.11 |                 96.67 |                         53.18 |                      74.79 |      4 |
+| telepix/PIXIE-Splade-v1.0             |           65.52 |              95.97 |            77.74 |     51.76 |             75.04 |                 95.39 |                         31.36 |                      70.4  |      5 |
+  
+  
+  
 # Dense 임베딩 모델 IR 순위
 |                                            |   Ko-StrategyQA |   AutoRAGRetrieval |   PublicHealthQA |   LawIRKo |   WebFAQRetrieval |   SQuADKorV1Retrieval |   MIRACLRetrievalHardNegative |   Retrieval_Average |   Rank |
 |:-------------------------------------------|----------------:|-------------------:|-----------------:|----------:|------------------:|----------------------:|------------------------------:|--------------------:|-------:|
